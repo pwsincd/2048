@@ -8,7 +8,7 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 10px 0; }
 
 .heading:after {
   content: "";
@@ -47,7 +47,7 @@ h1.title {
     top: -50px;
     opacity: 0; } }
 .scores-container {
-  float: right;
+  float: left;
   text-align: right; }
 
 .score-container, .best-container {
@@ -61,7 +61,7 @@ h1.title {
   font-weight: bold;
   border-radius: 3px;
   color: white;
-  margin-top: 8px;
+  margin-top: 0px;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
@@ -521,12 +521,15 @@ hr {
   display: inline-block;
   background: #8f7a66;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 15px 25px;
+  font-size: 25px;
   text-decoration: none;
   color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
+  height: 25px;
+  line-height: 47px;
   display: block;
+  margin-top: 0px;
+  margin-left:5px;
   text-align: center;
   float: right; }
 
@@ -538,8 +541,8 @@ hr {
     font-size: 15px; }
 
   body {
-    margin: 20px 0;
-    padding: 0 20px; }
+    margin: 0px 0;
+    padding: 0 0px; }
 
   h1.title {
     font-size: 27px;
@@ -555,7 +558,7 @@ hr {
     min-width: 40px; }
 
   .heading {
-    margin-bottom: 10px; }
+    margin-bottom: 0px; }
 
   .game-intro {
     width: 55%;
@@ -568,10 +571,10 @@ hr {
     padding: 0;
     display: block;
     box-sizing: border-box;
-    margin-top: 2px; }
+    margin-top: 0px; }
 
   .game-container {
-    margin-top: 17px;
+    margin-top: 0px;
     position: relative;
     padding: 10px;
     cursor: default;
@@ -613,7 +616,7 @@ hr {
         margin-top: 222px; }
       .game-container .game-message .lower {
         display: block;
-        margin-top: 59px; }
+        margin-top: 29px; }
       .game-container .game-message a {
         display: inline-block;
         background: #8f7a66;
